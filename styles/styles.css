@@ -1,0 +1,142 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navigation {
+    text-align: center;
+}
+
+h3 {
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
+
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+
+}
+
+.navigation .list {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 200px;
+
+}
+
+.navigation .list a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 24px;
+}
+
+.navigation .list button {
+    margin: 5px;
+}
+
+.btn-sign-in {
+    background-color: white;
+    border: 1px solid darkblue;
+    color: #173A56;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-sign-up {
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.first {
+    position: absolute;
+    width: 1126px;
+    height: 496px;
+    left: 145px;
+    top: 128px;
+}
+
+.leftside {
+    position: absolute;
+    width: 518px;
+    height: 331px;
+    left: 145px;
+    top: 211px;
+}
+
+.rightside {
+    position: absolute;
+    width: 605px;
+    height: 496px;
+    left: 666px;
+    top: 128px;
+}
+
+.first-h1,
+.first-ptag {
+    color: black;
+}
+
+.btn-getstarted
+{
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.watch-video
+{
+    text-decoration: none;
+}
+
+.website-footer
+{
+    position: relative;
+    top: 1200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.footer-items
+{
+display: flex;
+
+}
+
+.logo-footer
+{
+    position: absolute;
+    width: 70px;
+    height: 60px;
+}
