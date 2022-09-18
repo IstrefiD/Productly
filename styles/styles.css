@@ -1,5 +1,13 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -15,10 +23,8 @@ h3 {
 }
 
 .logo {
-    width: 70px;
-    height: 60px;
     float: left;
-    position: relative;
+    display: flex;
     margin: 10px 15px 15px 10px;
 
 }
@@ -69,74 +75,207 @@ h3 {
 
 
 .first {
-    position: absolute;
-    width: 1126px;
-    height: 496px;
-    left: 145px;
-    top: 128px;
+    display: flex;
+    margin-top: 100px;
 }
+
+
 
 .leftside {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 518px;
     height: 331px;
-    left: 145px;
-    top: 211px;
+
 }
+
 
 .rightside {
-    position: absolute;
+    display: flex;
     width: 605px;
     height: 496px;
-    left: 666px;
-    top: 128px;
+
 }
 
-.first-h1,
-.first-ptag {
-    color: black;
-}
-
-.btn-getstarted
-{
-    background-color: #FF9900;
-    border: none;
-    color: white;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
+.btn-getstarted {
     display: inline-block;
-    font-size: 16px;
+    border: none;
+    color: #efefef;
+    background: #FF9900;
     border-radius: 4px;
-    cursor: pointer;
+    height: 40px;
+    width: 155px;
 }
 
-.watch-video
-{
+.btn-watch-video {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    height: 53px;
+    width: 175px;
+
+}
+
+.h1-Info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+}
+
+
+
+.btn-card-signup {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+
+}
+
+.btn-card-success {
+    display: inline-block;
+    border: none;
+    color: #efefef;
+    background: #FF9900;
+    border-radius: 4px;
+    height: 40px;
+    width: 155px;
+}
+
+
+.middle-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.design-part {
+    float: left;
+    flex-direction: column;
+
+    width: 300px;
+    height: 531px;
+}
+
+.designer-container {
+    display: flex;
+    gap: 100px;
+}
+
+.design-pic {
+    display: flex;
+    align-self: center;
+    width: 520px;
+    height: 574px;
+}
+
+
+.manager-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.manager-container {
+    display: flex;
+    gap: 80px;
+}
+
+.manager-pic {
+    width: 535px;
+    height: 521px;
+}
+
+.manager-part {
+    width: 486px;
+    height: 427px;
+}
+
+
+
+.website-footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 1109px;
+    height: 308px;
+}
+
+.footer-items {
+    display: flex;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+.links-left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 20px;
+    width: 118px;
+    height: 205px;
+}
+
+.links-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 20px;
+    width: 131px;
+    height: 205px;
+}
+
+.signup-part {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    
+}
+
+.footer-logo {
+    width: 195px;
+    height: 45px;
+}
+
+.sign-up-now{
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #efefef;
+    background: #FF9900;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
+
+.footer-input{
+    padding: 10px 10px;
+    border: 1px solid grey;
+
+}
+
+.links-left a,
+.links-right a{
     text-decoration: none;
-}
-
-.website-footer
-{
-    position: relative;
-    top: 1200px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
-}
-
-.footer-items
-{
-display: flex;
-
-}
-
-.logo-footer
-{
-    position: absolute;
-    width: 70px;
-    height: 60px;
+    color: black;
 }
